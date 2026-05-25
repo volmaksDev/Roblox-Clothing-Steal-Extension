@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    width: 340px;
+
+    background:
+        linear-gradient(
+            180deg,
+            #0f0f10 0%,
+            #141416 100%
+        );
+
+    color: white;
+
+    font-family:
+        Inter,
+        Arial,
+        sans-serif;
+
+    padding: 14px;
+}
+
+.container {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 14px;
+}
+
+.header {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+.header h1 {
+
+    font-size: 20px;
+
+    font-weight: 700;
+}
+
+.header p {
+
+    margin-top: 4px;
+
+    color: #8d8d95;
+
+    font-size: 13px;
+}
+
+.status {
+
+    width: 10px;
+
+    height: 10px;
+
+    border-radius: 999px;
+
+    background: #a855f7;
+
+    box-shadow:
+        0 0 12px #a855f7;
+}
+
+.card {
+
+    background:
+        rgba(30, 30, 35, 0.9);
+
+    border:
+        1px solid rgba(255,255,255,0.04);
+
+    border-radius: 18px;
+
+    padding: 16px;
+
+    backdrop-filter: blur(10px);
+}
+
+.card-title {
+
+    font-size: 14px;
+
+    color: #b7b7c2;
+
+    margin-bottom: 14px;
+}
+
+button {
+
+    width: 100%;
+
+    border: none;
+
+    border-radius: 12px;
+
+    padding: 12px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #7c3aed,
+            #9333ea
+        );
+
+    color: white;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+button:hover {
+
+    transform: translateY(-1px);
+
+    box-shadow:
+        0 0 18px rgba(168,85,247,0.4);
+}
+
+.links {
+
+    display: flex;
+
+    gap: 10px;
+}
+
+.link-btn {
+
+    flex: 1;
+
+    text-decoration: none;
+
+    text-align: center;
+
+    padding: 11px;
+
+    border-radius: 12px;
+
+    background: #232329;
+
+    color: #d4d4dd;
+
+    font-weight: 600;
+
+    transition: 0.2s;
+}
+
+.link-btn:hover {
+
+    background: #2d2d35;
+
+    color: white;
+}
+
+.footer {
+
+    text-align: center;
+
+    color: #71717a;
+
+    font-size: 12px;
+}
